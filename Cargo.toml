@@ -1,0 +1,9 @@
+[package]
+name = "whitelistbot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+http2byond = "0.1.0"
+poise = "0.6.1"
+tokio = { version = "1.44.2", features = ["rt-multi-thread"] }
